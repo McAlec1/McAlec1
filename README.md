@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hey there 👋
 
 ### My about me is [here](https://mcalec.dev/about)
 
