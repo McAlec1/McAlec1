@@ -1,5 +1,18 @@
-### Hey there 👋
+### your local (not) furry dev
 
-### My about me can be found [here](https://mcalec.dev/about-me)
+things i know
+- html css js
+- some java
+- little c# and ruby
+- file sorting
+- nothing under asm
+- a lot of powershell
+- making memes
+- sorting high quality music
 
-#### All my projects are licensed under The MIT License and Creative Commons BY-NC 4.0, unless explicitly stated.
+i guess thats all... 
+projects licensed under "MIT License" or some creative commons one or "Unlincense"
+
+yes i know my mc mods suck or dont work
+yes i hate life
+no im not a fat discord mod
