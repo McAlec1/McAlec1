@@ -17,4 +17,9 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          
+          # core plugin
           config_timezone: America/New_York
+          config_display: columns
+          
+          
