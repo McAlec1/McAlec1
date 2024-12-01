@@ -32,7 +32,7 @@ jobs:
             plugin_achievements_limit: 5
             
             plugin_pagespeed: yes
-            lugin_pagespeed_url: mcalec.dev
+            plugin_pagespeed_url: mcalec.dev
             
             plugin_wakatime: yes
             plugin_wakatime_token:  ${{ secrets.WAKATIME_API }}
