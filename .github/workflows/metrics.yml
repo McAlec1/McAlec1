@@ -23,8 +23,9 @@ jobs:
             
             config_timezone: America/New_York
             config_display: regular
-            config_output: svg
+            config_output: markdown
             config_base64: yes
+            config_animations: no
             
             # achievements plugin
             plugin_achievements: yes
