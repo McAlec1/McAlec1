@@ -1,6 +1,6 @@
 name: Metrics
 on:
-  schedule: [{cron: "0 */6 * * *"}]
+  schedule: [{cron: "0 * * * *"}]
   workflow_dispatch:
   push: {branches: []}
 jobs:
@@ -17,7 +17,7 @@ jobs:
             committer_branch: dist
             committer_message: "[Metrics Update] Updating Picture"
 
-            user: mcalec1
+            user: McAlec1
             template: classic
             base: header, activity, community, repositories, metadata
             
@@ -25,17 +25,19 @@ jobs:
             config_display: regular
             config_output: svg
             config_base64: yes
+            config_twemoji: yes
             config_animations: no
             
             # achievements plugin
             plugin_achievements: yes
-            plugin_achievements_secrets: yes
             plugin_achievements_display: compact
-            plugin_achievements_threshold: C
             plugin_achievements_limit: 3
+            plugin_achievements_secrets: yes
+            plugin_achievements_threshold: C
             
             # pagespeed plugin
             plugin_pagespeed: yes
+            plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
             plugin_pagespeed_url: mcalec.dev
             
             # wakatime plugin
@@ -44,7 +46,7 @@ jobs:
             plugin_wakatime_days: 30
             plugin_wakatime_limit: 5
             plugin_wakatime_repositories_visibility: all
-            plugin_wakatime_sections: time, languages, languages-graphs, editors, os
+            plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
             plugin_wakatime_url: https://wakatime.com
             plugin_wakatime_user: current
             
